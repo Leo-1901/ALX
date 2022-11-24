@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.nav{
+    background-color: navy;
+    display: flex;
+    padding: 20px;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav li.li-right{
+    background-color: red;
+}
+
+div.intro{
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flex-box div{
+    padding: 0 10px;
+}
